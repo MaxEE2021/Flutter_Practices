@@ -1,6 +1,26 @@
-# row_column
+# Cloned Designs
+This Activity was to recreate the design of some apps, in order to learn how to positionate each element with fluttre
+topics:
+-containers     -row        -column         -expand
+-icons          -mainaxis   -crossaxis      -images
 
-A new Flutter project.
+final results:
+[![Screenshot-1632081677.png](https://i.postimg.cc/mrZnqYmm/Screenshot-1632081677.png)](https://postimg.cc/PCcKvwsD)
+
+[![Screenshot-1632081681.png](https://i.postimg.cc/wxRGSTkY/Screenshot-1632081681.png)](https://postimg.cc/pyxCjv7s)
+
+[![Screenshot-1632081689.png](https://i.postimg.cc/sXq0vtsL/Screenshot-1632081689.png)](https://postimg.cc/ZBPLQs9P)
+
+[![Screenshot-1632081693.png](https://i.postimg.cc/K8DVJqDK/Screenshot-1632081693.png)](https://postimg.cc/ts72gzfy)
+
+[![Screenshot-1632081702.png](https://i.postimg.cc/rFW7tFdN/Screenshot-1632081702.png)](https://postimg.cc/7fHKF4n5)
+
+
+
+
+
+
+
 
 ## Getting Started
 

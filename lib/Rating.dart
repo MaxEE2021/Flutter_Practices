@@ -22,6 +22,7 @@ class _RatingState extends State<Rating> {
 
   int _currentRaring = 0;
 
+
   Widget _buildRatingStar(int index) {
 
     if (index < _currentRaring){
