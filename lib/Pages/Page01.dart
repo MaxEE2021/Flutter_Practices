@@ -3,13 +3,12 @@ import 'package:row_column/Rating.dart';
 
 import 'package:flutter/material.dart';
 
-class Page01 extends StatelessWidget {
-  const Page01({Key? key}) : super(key: key);
+class Page01Widget extends StatelessWidget {
+  const Page01Widget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -69,14 +68,10 @@ class Page01 extends StatelessWidget {
           ],
         ),
 
-      ),
-    );
+      );
   }
   void _action() {
     print("The Button was pressed");
   }
 }
-
-
-
 

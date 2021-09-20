@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Page04 extends StatelessWidget {
-  const Page04({Key? key}) : super(key: key);
+class Page04Widget extends StatelessWidget {
+  const Page04Widget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
-      body: Container(
+    return Container(
         // color: Colors.orange,
         margin: EdgeInsetsDirectional.all(10),
         height: 225,
@@ -128,8 +126,7 @@ class Page04 extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
+      );
   }
   void _ConsultFunction(){
     print("You have pressed Consult");

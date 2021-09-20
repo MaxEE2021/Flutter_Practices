@@ -3,13 +3,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:row_column/Rating.dart';
 
-class Page02 extends StatelessWidget {
-  const Page02({Key? key}) : super(key: key);
+class Page02Widget extends StatelessWidget {
+  const Page02Widget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return Container(
         child: Column(
           children: [
             Expanded(
@@ -104,7 +103,6 @@ class Page02 extends StatelessWidget {
             ),
           ],
         ),
-      ),
     );
   }
 }

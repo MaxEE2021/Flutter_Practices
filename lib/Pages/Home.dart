@@ -26,11 +26,11 @@ class _MyHomepState extends State<MyHomep> {
     
 
     switch (pos) {
-      case 0: return Page01();
-      case 1: return Page02();
-      case 2: return Page03();
-      case 3: return Page04();
-      default: return Page01();
+      case 0: return HomePage();
+      case 1: return Page01Widget();
+      case 2: return Page02Widget();
+      case 3: return Page03Widget();
+      case 4: return Page04Widget();
     }
   }
 
@@ -55,7 +55,7 @@ class _MyHomepState extends State<MyHomep> {
           child: ListView(
             children: [
               ListTile(
-                title: Text("Page01"),
+                title: Text("Home"),
                 selected: (0 == _SelectDraweItemPos),
                 leading: Icon(Icons.pages),
                 onTap: (){
@@ -63,7 +63,7 @@ class _MyHomepState extends State<MyHomep> {
                 },
               ),
               ListTile(
-                title: Text("Page02"),
+                title: Text("Page01"),
                 selected: (1 == _SelectDraweItemPos),
                 leading: Icon(Icons.pages),
                 onTap: (){
@@ -71,7 +71,7 @@ class _MyHomepState extends State<MyHomep> {
                 },
               ),
               ListTile(
-                title: Text("Page03"),
+                title: Text("Page02"),
                 selected: (2 == _SelectDraweItemPos),
                 leading: Icon(Icons.pages),
                 onTap: (){
@@ -79,11 +79,19 @@ class _MyHomepState extends State<MyHomep> {
                 },
               ),
               ListTile(
-                title: Text("Page04"),
+                title: Text("Page03"),
                 selected: (3 == _SelectDraweItemPos),
                 leading: Icon(Icons.pages),
                 onTap: (){
                   _OnSelectItem(3);
+                },
+              ),
+              ListTile(
+                title: Text("Page04"),
+                selected: (4 == _SelectDraweItemPos),
+                leading: Icon(Icons.pages),
+                onTap: (){
+                  _OnSelectItem(4);
                 },
               ),
               Divider()
@@ -98,6 +106,56 @@ class _MyHomepState extends State<MyHomep> {
 
   
 }
+
+
+
+
+/**////////////////////////////////////HOME WIDGET *///////////////////////
+
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        // color: Colors.grey.shade500,
+        padding: EdgeInsets.all(10),
+        child: SingleChildScrollView(
+          padding: EdgeInsets.only(top: 10),
+          child: Column(
+            children: [
+              Container(
+                height: 500,
+                margin: EdgeInsets.only(top: 5),
+                color: Colors.grey.shade300,
+                child: Page01Widget(),
+              ),
+              Container(
+                height: 600,
+                margin: EdgeInsets.only(top: 25),
+                color: Colors.grey.shade300,
+                child: Page02Widget(),
+              ),
+              Container(
+                height: 500,
+                margin: EdgeInsets.only(top: 25),
+                color: Colors.grey.shade300,
+                child: Page03Widget(),
+              ),
+              Container(
+                // height: 500,
+                margin: EdgeInsets.only(top: 25),
+                color: Colors.grey.shade300,
+                child: Page04Widget(),
+              ),
+            ],
+          ),
+    
+          ),
+        );
+  }
+}
+
 
 
 

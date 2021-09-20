@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Page03 extends StatelessWidget {
-  const Page03({Key? key}) : super(key: key);
+class Page03Widget extends StatelessWidget {
+  const Page03Widget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-      body: Container(
+    return Container(
         child: Column(
           children: [
             Container(
@@ -112,7 +110,6 @@ class Page03 extends StatelessWidget {
             ),
           ],
         ),
-      ),
     );
   }
 }
