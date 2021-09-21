@@ -4,7 +4,7 @@ topics:
 -containers     -row        -column         -expand
 -icons          -mainaxis   -crossaxis      -images
 
-Update1: added ScrollView, Separte Each Card into custome Widgets
+Update1: added ScrollView, Separte Each Card into custome Widgets, added more screens
 
 final results:
 
@@ -20,6 +20,12 @@ final results:
 
 
 [![Screenshot-1632081693.png](https://i.postimg.cc/K8DVJqDK/Screenshot-1632081693.png)](https://postimg.cc/ts72gzfy)
+
+
+[![Screenshot-1632182415.png](https://i.postimg.cc/jdvVgvrF/Screenshot-1632182415.png)](https://postimg.cc/GHBS9FtF)
+
+
+[![Screenshot-1632182418.png](https://i.postimg.cc/VkNx3MfL/Screenshot-1632182418.png)](https://postimg.cc/2VP9W1LP)
 
 
 [![Screenshot-1632161317.png](https://i.postimg.cc/Z5jY6M65/Screenshot-1632161317.png)](https://postimg.cc/WdFPvS9B)

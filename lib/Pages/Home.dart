@@ -3,6 +3,8 @@ import 'package:row_column/Pages/Page01.dart';
 import 'package:row_column/Pages/Page02.dart';
 import 'package:row_column/Pages/Page03.dart';
 import 'package:row_column/Pages/Page04.dart';
+import 'package:row_column/Pages/Page05.dart';
+import 'package:row_column/Pages/Page06.dart';
 
 
 
@@ -31,6 +33,8 @@ class _MyHomepState extends State<MyHomep> {
       case 2: return Page02Widget();
       case 3: return Page03Widget();
       case 4: return Page04Widget();
+      case 5: return Page05Widget();
+      case 6: return Page06Widget();
     }
   }
 
@@ -94,6 +98,22 @@ class _MyHomepState extends State<MyHomep> {
                   _OnSelectItem(4);
                 },
               ),
+              ListTile(
+                title: Text("Page05"),
+                selected: (5 == _SelectDraweItemPos),
+                leading: Icon(Icons.pages),
+                onTap: (){
+                  _OnSelectItem(5);
+                },
+              ),
+              ListTile(
+                title: Text("Page06"),
+                selected: (6 == _SelectDraweItemPos),
+                leading: Icon(Icons.pages),
+                onTap: (){
+                  _OnSelectItem(6);
+                },
+              ),
               Divider()
 
             ],
@@ -147,6 +167,18 @@ class HomePage extends StatelessWidget {
                 margin: EdgeInsets.only(top: 25),
                 color: Colors.grey.shade300,
                 child: Page04Widget(),
+              ),
+              Container(
+                // height: 500,
+                margin: EdgeInsets.only(top: 25),
+                color: Colors.grey.shade300,
+                child: Page05Widget(),
+              ),
+              Container(
+                // height: 500,
+                margin: EdgeInsets.only(top: 25),
+                color: Colors.grey.shade300,
+                child: Page06Widget(),
               ),
             ],
           ),
