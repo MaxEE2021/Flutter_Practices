@@ -24,8 +24,8 @@ class _MyHomepState extends State<MyHomep> {
   // const MyHomeP({Key? key}) : super(key: key);
   // MyHomeP();
   int _SelectDraweItemPos = 0;
+  
   _GetDrawerItemWidget(int pos){
-    
 
     switch (pos) {
       case 0: return HomePage();
@@ -50,7 +50,7 @@ class _MyHomepState extends State<MyHomep> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Practice 1 Flutter \n \t\t\t\t\t\t\t\t page ${_SelectDraweItemPos+1}'),
+        title: Text('Practice 1 Flutter \n \t\t\t\t\t\t\t\t page ${_SelectDraweItemPos}'),
         centerTitle: true,
       ),
       drawer: Drawer(
