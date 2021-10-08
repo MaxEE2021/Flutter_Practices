@@ -9,8 +9,7 @@ Update1: added ScrollView, Separte Each Card into custome Widgets, added more sc
 final results:
 
 
-<img src="https://i.postimg.cc/mrZnqYmm/Screenshot-1632081677.png" width="200" height="200" />
-<img src="https://i.postimg.cc/mrZnqYmm/Screenshot-1632081677.png" width="200" height="200" />
+<img src="https://i.postimg.cc/mrZnqYmm/Screenshot-1632081677.png" width="200" height="200" /><img src="https://i.postimg.cc/mrZnqYmm/Screenshot-1632081677.png" width="200" height="200" />
 [![Screenshot-1632081677.png](https://i.postimg.cc/mrZnqYmm/Screenshot-1632081677.png)](https://postimg.cc/PCcKvwsD){widht=30} [![Screenshot-1632081681.png](https://i.postimg.cc/wxRGSTkY/Screenshot-1632081681.png)](https://postimg.cc/pyxCjv7s){widht=30} [![Screenshot-1632081689.png](https://i.postimg.cc/sXq0vtsL/Screenshot-1632081689.png)](https://postimg.cc/ZBPLQs9P) [![Screenshot-1632081693.png](https://i.postimg.cc/K8DVJqDK/Screenshot-1632081693.png)](https://postimg.cc/ts72gzfy) [![Screenshot-1632182415.png](https://i.postimg.cc/jdvVgvrF/Screenshot-1632182415.png)](https://postimg.cc/GHBS9FtF)
 
 
